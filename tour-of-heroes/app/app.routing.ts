@@ -3,16 +3,16 @@ import { Routes, RouterModule } from '@angular/router';
 
 import './rxjs-extensions';
 
-import { HeroesComponent }      from './heroes.component';
-import { HeroDetailComponent }      from './hero-detail.component';
-import { DashboardComponent }      from './dashboard.component';
+import { HeroesComponent }      from './heroes/heroes.component';
+import { HeroDetailComponent }      from './hero-detail/hero-detail.component';
+import { DashboardComponent }      from './dashboard/dashboard.component';
 
 const appRoutes: Routes = [
 	{
 		path: '',
 		redirectTo: '/dashboard',
 		pathMatch: 'full'
-	}
+	},
 	{
 		path: 'heroes',
 		component: HeroesComponent
