@@ -1,0 +1,68 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'tsc',
+1 verbose cli   'node_modules/angular2-in-memory-web-api/http-status-codes.d.ts',
+1 verbose cli   'node_modules/angular2-in-memory-web-api/index.d.ts',
+1 verbose cli   'node_modules/angular2-in-memory-web-api/in-memory-backend.service.d.ts',
+1 verbose cli   'node_modules/reflect-metadata/Reflect.d.ts',
+1 verbose cli   'node_modules/reflect-metadata/Reflect.ts',
+1 verbose cli   'node_modules/reflect-metadata/reflect-metadata.d.ts',
+1 verbose cli   'node_modules/reflect-metadata/typings.d.ts',
+1 verbose cli   'node_modules/rxjs/AsyncSubject.d.ts',
+1 verbose cli   'node_modules/rxjs/BehaviorSubject.d.ts',
+1 verbose cli   'node_modules/rxjs/InnerSubscriber.d.ts',
+1 verbose cli   'node_modules/rxjs/Notification.d.ts',
+1 verbose cli   'node_modules/rxjs/Observable.d.ts',
+1 verbose cli   'node_modules/rxjs/Observer.d.ts',
+1 verbose cli   'node_modules/rxjs/Operator.d.ts',
+1 verbose cli   'node_modules/rxjs/OuterSubscriber.d.ts',
+1 verbose cli   'node_modules/rxjs/ReplaySubject.d.ts',
+1 verbose cli   'node_modules/rxjs/Rx.d.ts',
+1 verbose cli   'node_modules/rxjs/Scheduler.d.ts',
+1 verbose cli   'node_modules/rxjs/Subject.d.ts',
+1 verbose cli   'node_modules/rxjs/SubjectSubscription.d.ts',
+1 verbose cli   'node_modules/rxjs/Subscriber.d.ts',
+1 verbose cli   'node_modules/rxjs/Subscription.d.ts',
+1 verbose cli   'node_modules/typescript/Gulpfile.ts',
+1 verbose cli   'src/app/app.component.ts',
+1 verbose cli   'src/app/app.module.ts' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 verbose run-script [ 'pretsc', 'tsc', 'posttsc' ]
+5 info pretsc library-app@1.0.0
+6 info tsc library-app@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info library-app@1.0.0 Failed to exec tsc script
+9 verbose stack Error: library-app@1.0.0 tsc: `tsc "node_modules/angular2-in-memory-web-api/http-status-codes.d.ts" "node_modules/angular2-in-memory-web-api/index.d.ts" "node_modules/angular2-in-memory-web-api/in-memory-backend.service.d.ts" "node_modules/reflect-metadata/Reflect.d.ts" "node_modules/reflect-metadata/Reflect.ts" "node_modules/reflect-metadata/reflect-metadata.d.ts" "node_modules/reflect-metadata/typings.d.ts" "node_modules/rxjs/AsyncSubject.d.ts" "node_modules/rxjs/BehaviorSubject.d.ts" "node_modules/rxjs/InnerSubscriber.d.ts" "node_modules/rxjs/Notification.d.ts" "node_modules/rxjs/Observable.d.ts" "node_modules/rxjs/Observer.d.ts" "node_modules/rxjs/Operator.d.ts" "node_modules/rxjs/OuterSubscriber.d.ts" "node_modules/rxjs/ReplaySubject.d.ts" "node_modules/rxjs/Rx.d.ts" "node_modules/rxjs/Scheduler.d.ts" "node_modules/rxjs/Subject.d.ts" "node_modules/rxjs/SubjectSubscription.d.ts" "node_modules/rxjs/Subscriber.d.ts" "node_modules/rxjs/Subscription.d.ts" "node_modules/typescript/Gulpfile.ts" "src/app/app.component.ts" "src/app/app.module.ts"`
+9 verbose stack Exit status 2
+9 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at EventEmitter.emit (events.js:172:7)
+9 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+9 verbose stack     at emitTwo (events.js:87:13)
+9 verbose stack     at ChildProcess.emit (events.js:172:7)
+9 verbose stack     at maybeClose (internal/child_process.js:829:16)
+9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+10 verbose pkgid library-app@1.0.0
+11 verbose cwd C:\Users\e-aorl\Projects\angular2-sample\library-app
+12 error Windows_NT 6.3.9600
+13 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "tsc" "node_modules/angular2-in-memory-web-api/http-status-codes.d.ts" "node_modules/angular2-in-memory-web-api/index.d.ts" "node_modules/angular2-in-memory-web-api/in-memory-backend.service.d.ts" "node_modules/reflect-metadata/Reflect.d.ts" "node_modules/reflect-metadata/Reflect.ts" "node_modules/reflect-metadata/reflect-metadata.d.ts" "node_modules/reflect-metadata/typings.d.ts" "node_modules/rxjs/AsyncSubject.d.ts" "node_modules/rxjs/BehaviorSubject.d.ts" "node_modules/rxjs/InnerSubscriber.d.ts" "node_modules/rxjs/Notification.d.ts" "node_modules/rxjs/Observable.d.ts" "node_modules/rxjs/Observer.d.ts" "node_modules/rxjs/Operator.d.ts" "node_modules/rxjs/OuterSubscriber.d.ts" "node_modules/rxjs/ReplaySubject.d.ts" "node_modules/rxjs/Rx.d.ts" "node_modules/rxjs/Scheduler.d.ts" "node_modules/rxjs/Subject.d.ts" "node_modules/rxjs/SubjectSubscription.d.ts" "node_modules/rxjs/Subscriber.d.ts" "node_modules/rxjs/Subscription.d.ts" "node_modules/typescript/Gulpfile.ts" "src/app/app.component.ts" "src/app/app.module.ts"
+14 error node v4.5.0
+15 error npm  v2.15.9
+16 error code ELIFECYCLE
+17 error library-app@1.0.0 tsc: `tsc "node_modules/angular2-in-memory-web-api/http-status-codes.d.ts" "node_modules/angular2-in-memory-web-api/index.d.ts" "node_modules/angular2-in-memory-web-api/in-memory-backend.service.d.ts" "node_modules/reflect-metadata/Reflect.d.ts" "node_modules/reflect-metadata/Reflect.ts" "node_modules/reflect-metadata/reflect-metadata.d.ts" "node_modules/reflect-metadata/typings.d.ts" "node_modules/rxjs/AsyncSubject.d.ts" "node_modules/rxjs/BehaviorSubject.d.ts" "node_modules/rxjs/InnerSubscriber.d.ts" "node_modules/rxjs/Notification.d.ts" "node_modules/rxjs/Observable.d.ts" "node_modules/rxjs/Observer.d.ts" "node_modules/rxjs/Operator.d.ts" "node_modules/rxjs/OuterSubscriber.d.ts" "node_modules/rxjs/ReplaySubject.d.ts" "node_modules/rxjs/Rx.d.ts" "node_modules/rxjs/Scheduler.d.ts" "node_modules/rxjs/Subject.d.ts" "node_modules/rxjs/SubjectSubscription.d.ts" "node_modules/rxjs/Subscriber.d.ts" "node_modules/rxjs/Subscription.d.ts" "node_modules/typescript/Gulpfile.ts" "src/app/app.component.ts" "src/app/app.module.ts"`
+17 error Exit status 2
+18 error Failed at the library-app@1.0.0 tsc script 'tsc "node_modules/angular2-in-memory-web-api/http-status-codes.d.ts" "node_modules/angular2-in-memory-web-api/index.d.ts" "node_modules/angular2-in-memory-web-api/in-memory-backend.service.d.ts" "node_modules/reflect-metadata/Reflect.d.ts" "node_modules/reflect-metadata/Reflect.ts" "node_modules/reflect-metadata/reflect-metadata.d.ts" "node_modules/reflect-metadata/typings.d.ts" "node_modules/rxjs/AsyncSubject.d.ts" "node_modules/rxjs/BehaviorSubject.d.ts" "node_modules/rxjs/InnerSubscriber.d.ts" "node_modules/rxjs/Notification.d.ts" "node_modules/rxjs/Observable.d.ts" "node_modules/rxjs/Observer.d.ts" "node_modules/rxjs/Operator.d.ts" "node_modules/rxjs/OuterSubscriber.d.ts" "node_modules/rxjs/ReplaySubject.d.ts" "node_modules/rxjs/Rx.d.ts" "node_modules/rxjs/Scheduler.d.ts" "node_modules/rxjs/Subject.d.ts" "node_modules/rxjs/SubjectSubscription.d.ts" "node_modules/rxjs/Subscriber.d.ts" "node_modules/rxjs/Subscription.d.ts" "node_modules/typescript/Gulpfile.ts" "src/app/app.component.ts" "src/app/app.module.ts"'.
+18 error This is most likely a problem with the library-app package,
+18 error not with npm itself.
+18 error Tell the author that this fails on your system:
+18 error     tsc "node_modules/angular2-in-memory-web-api/http-status-codes.d.ts" "node_modules/angular2-in-memory-web-api/index.d.ts" "node_modules/angular2-in-memory-web-api/in-memory-backend.service.d.ts" "node_modules/reflect-metadata/Reflect.d.ts" "node_modules/reflect-metadata/Reflect.ts" "node_modules/reflect-metadata/reflect-metadata.d.ts" "node_modules/reflect-metadata/typings.d.ts" "node_modules/rxjs/AsyncSubject.d.ts" "node_modules/rxjs/BehaviorSubject.d.ts" "node_modules/rxjs/InnerSubscriber.d.ts" "node_modules/rxjs/Notification.d.ts" "node_modules/rxjs/Observable.d.ts" "node_modules/rxjs/Observer.d.ts" "node_modules/rxjs/Operator.d.ts" "node_modules/rxjs/OuterSubscriber.d.ts" "node_modules/rxjs/ReplaySubject.d.ts" "node_modules/rxjs/Rx.d.ts" "node_modules/rxjs/Scheduler.d.ts" "node_modules/rxjs/Subject.d.ts" "node_modules/rxjs/SubjectSubscription.d.ts" "node_modules/rxjs/Subscriber.d.ts" "node_modules/rxjs/Subscription.d.ts" "node_modules/typescript/Gulpfile.ts" "src/app/app.component.ts" "src/app/app.module.ts"
+18 error You can get information on how to open an issue for this project with:
+18 error     npm bugs library-app
+18 error Or if that isn't available, you can get their info via:
+18 error
+18 error     npm owner ls library-app
+18 error There is likely additional logging output above.
+19 verbose exit [ 1, true ]
