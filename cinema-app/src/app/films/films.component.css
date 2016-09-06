@@ -1,0 +1,10 @@
+.cinema__films__list {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  width: 15em;
+}
+
+.cinema__films__list li {
+  list-style-type: none;
+}

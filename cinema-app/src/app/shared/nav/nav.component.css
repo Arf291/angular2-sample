@@ -1,0 +1,10 @@
+.cinema__navbar {
+  color: white;
+  background-color: black;
+}
+
+.cinema__navbar__menu a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
