@@ -9,7 +9,7 @@ import { Film, FilmService } from '../film';
 })
 
 export class FilmsComponent implements OnInit {
-  films: Film[];
+  public films: Film[];
 
   constructor(
     private filmService: FilmService

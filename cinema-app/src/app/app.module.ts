@@ -1,6 +1,8 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { CoreModule }  from './core';
+
 import { routing } from './app.routing';
 
 import { NavComponent } from './shared';
@@ -9,10 +11,12 @@ import { AppComponent }  from './app.component';
 import { FilmComponent, FilmService } from './film';
 import { FilmsComponent } from './films';
 import { RankingComponent } from './ranking';
+import { FilmSearchComponent } from './film-search';
 
 @NgModule({
   imports: [ 
     BrowserModule,
+    CoreModule,
     routing
   ],
   declarations: [ 
@@ -20,7 +24,8 @@ import { RankingComponent } from './ranking';
     FilmComponent,
     FilmsComponent,
     NavComponent,
-    RankingComponent
+    RankingComponent,
+    FilmSearchComponent
   ],
   providers: [
     FilmService

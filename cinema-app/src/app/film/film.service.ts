@@ -5,34 +5,24 @@ import 'rxjs/add/operator/toPromise';
 
 import { Film } from './film';
 
-const FILMS: Film[] = [
-  {
-      id: 1,
-      name: 'The Departed',
-      rating: 9.7,
-      director: 'Martin Scorcese',
-      sypnosis: 'Once upon a time...'
-    },
-    {
-      id: 2,
-      name: 'The Godfather',
-      rating: 9.2,
-      director: 'Francis Ford Coppola',
-      sypnosis: 'Once upon a time...'
-    },
-    {
-      id: 3,
-      name: 'American History X',
-      rating: 9.6,
-      director: 'Tony Kaye',
-      sypnosis: 'Once upon a time...'
-    }
-]
-
 @Injectable()
 export class FilmService {
+  private apiUrl = '/api/films';
+  private headers = new Headers({'Content-Type': 'application/json'});
+
+  constructor(
+    private http: Http
+  ) {}
+
+  private handleError(error: any): Promise<any> {
+      console.error('An error occurred', error); // for demo purposes only
+      return Promise.reject(error.message || error);
+  }
 
   getFilms(): Promise<Film[]> {
-    return Promise.resolve(FILMS);
+    return this.http.get(this.apiUrl)
+      .toPromise()
+      .then(response => response.json().data as Film[])
+      .catch(this.handleError)
   }
 }

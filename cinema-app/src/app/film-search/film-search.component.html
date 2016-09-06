@@ -1,0 +1,6 @@
+<input #searchBox (keyup)="searchByName(searchBox.value)" placeholder="Search a film" />
+<div>
+  <div *ngFor="let film of films | async" >
+    {{film.name}}
+  </div>
+</div>

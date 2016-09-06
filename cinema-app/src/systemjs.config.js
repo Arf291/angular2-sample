@@ -13,11 +13,13 @@
     map: {
       // App barrels
       'app': 'dist:src',
+      'core': 'dist:src/app/core',
       'film': 'dist:src/app/film',
       'films': 'dist:src/app/films',
       'shared': 'dist:src/app/shared',
       'nav': 'dist:src/app/shared/nav',
       'ranking': 'dist:src/app/ranking',
+      'film-search': 'dist:src/app/film-search',
 
       // Angular bundles
       '@angular/core': 'npm:@angular/core/bundles/core.umd.js',
@@ -46,14 +48,18 @@
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
-      app: {
-        main: './main.js',
-        defaultExtension: 'js'
-      },
       rxjs: {
         defaultExtension: 'js'
       },
       'angular2-in-memory-web-api': {
+        main: './index.js',
+        defaultExtension: 'js'
+      },
+      app: {
+        main: './main.js',
+        defaultExtension: 'js'
+      },
+      core: {
         main: './index.js',
         defaultExtension: 'js'
       },
@@ -74,6 +80,10 @@
         defaultExtension: 'js'
       },
       ranking: {
+        main: 'index.js',
+        defaultExtension: 'js'
+      },
+      'film-search': {
         main: 'index.js',
         defaultExtension: 'js'
       }
